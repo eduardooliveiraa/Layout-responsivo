@@ -1,1 +1,1 @@
-Layout-responsivo
+Atividade para teste de resposividade 
