@@ -5,22 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Social Club</title>
     <link rel="stylesheet" href="styles.css" />
-    <script> src='script.js' </script>
+    <script src="script.js" defer></script>
   </head>
   <body>
     <header>
       <h1>Social Club</h1>
     </header>
     <main>
-      <p>Seja bem-vindo ao Social Club!</p> 
+      <p>Seja bem-vindo ao Social Club!</p>
       <p>Compartilhe momentos e interaja com seus amigos.</p>
-      <form>
+      <form onsubmit="logar(); return false;">
         <label for="login">Usuário</label>
         <input type="text" id="login" name="login" />
         <label for="senha">Senha</label>
         <input type="password" id="senha" name="senha" />
         <button type="submit" id="entrar">Entrar</button>
-        <input type="submit" onclick="logar(); return false">
       </form>
     </main>
     <footer>
