@@ -5,7 +5,7 @@ function logar() {
   if (login == 'admin' && senha == 'admnin') {
     alert('Sucesso');
   }
-  else{
+  else {
     alert('Usuario ou senha incorretos');
   }
 }
